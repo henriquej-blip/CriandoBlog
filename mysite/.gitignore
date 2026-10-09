@@ -1,0 +1,20 @@
+# Ambientes Virtuais (Nunca vão para o GitHub)
+venv/
+Blogvenv/
+env/
+*.env
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bancos de dados locais e arquivos de mídia/estáticos gerados
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Arquivos de IDEs
+.vscode/
+.idea/

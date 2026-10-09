@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+#content {
+    float: left;
+    width: 65%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    padding: 30px;
+    background: #f9f9f9;
+    border-left: 1px solid #efefef;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Limpa o float para o layout não quebrar */
+body::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.post {
+    margin-bottom: 40px
+}
+
+.post .date {
+    color: #999;
+    font-family: Georgia, serif;
+    font-size: 0.9em
+}
+
+.pagination {
+    margin: 40px 0;
+    font-weight: bold;
+}
+
+input[type=text], input[type=email], textarea {
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.comment {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.comment .info {
+    color: #888;
+    font-size: 0.8em;
+}
